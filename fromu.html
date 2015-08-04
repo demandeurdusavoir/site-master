@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CREATION PAGE DYNAMIQUE</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<header><h1>Relevé de notes<br/></h1></header>
+
+	<form action="resultat.php" method="POST">
+	<label> MATIERE : </label>
+      <input type="radio" name="matiere" value="Histoire"> Histoire.
+      <input type="radio" name="matiere" value="francais"> Français.
+      <input type="radio" name="matiere" value="geographie">Géographie.
+      <input type="radio" name="matiere" value="arts plastiques"> Art-plastiques.
+      <input type="radio" name="matiere" value="biologie"> biologie.
+      <input type="radio" name="matiere" value="mathematique"> Mathématiques.
+      <input type="radio" name="matiere" value="sport"> Sport.
+      <br>
+		<label> Nom et Prénom : </label>
+      <input type="text" id="eleve" placeholder="NOM + Prénom" name="nom et prénom" size="75">
+      <br>
+		<label> Note : </label>
+      <input type="text" placeholder="/20" size="1" name="résultat">
+      <br>
+		<input type="submit" value="valider">
+</form>
+
+		
+			
+		
+
+		<footer>
+			
+		</footer>
+		
+	</body>
+</html>
